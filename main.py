@@ -1,0 +1,6 @@
+print("\n*****restaurant management system*****")
+print("1 press for user authetication")
+print("2 press for menu sysytem")
+print("3 press for orde")
+print("4 press for")
+print("")
