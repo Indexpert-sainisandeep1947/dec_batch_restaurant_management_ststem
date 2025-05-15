@@ -1,66 +1,10 @@
 [
     {
         "name": "sandeep kumar",
-        "address": "sawreji",
-        "contact": "77890-865",
-        "email": "sandeep@123",
-        "role": "admin",
-        "id": "admin_sandeep_kumar_d131c389"
-    },
-    {
-        "name": "sandeep kumar",
-        "address": "sawreji",
+        "address": "sawreji mirganj",
         "contact": "7759996977",
-        "email": "sandeep@123gmail.com",
-        "role": "admin",
-        "id": "admin_sandeep_kumar_cb642d59"
-    },
-    {
-        "name": "sandeep kumar",
-        "address": "sawreji",
-        "contact": "3455678",
-        "email": "sandeep@123gmail.com",
-        "role": "admin",
-        "id": "admin_sandeep_kumar_4f1981a5"
-    },
-    {
-        "name": "sandeep kumar",
-        "address": "sawreji",
-        "contact": "3456789",
-        "email": "sandeep@123gmail.com",
+        "email": "sandeep123@gmail.com",
         "role": "staff",
-        "id": "staff_sandeep_kumar_31f717cb"
-    },
-    {
-        "name": "manjit kumar",
-        "address": "sawreji",
-        "contact": "127890",
-        "email": "manjit@456mail.com",
-        "role": "staff",
-        "id": "staff_manjit_kumar_65d84b03"
-    },
-    {
-        "name": "sandeep kumar",
-        "address": "sawreji",
-        "contact": "7759996977",
-        "email": "sandeep@123gmail.com",
-        "role": "admin",
-        "id": "admin_sandeep_kumar_c2adbede"
-    },
-    {
-        "name": "sandeep kumar",
-        "address": "sawreji",
-        "contact": "7759996977",
-        "email": "sandeep@123gmail.com",
-        "role": "admin",
-        "id": "admin_sandeep_kumar_ae00a9b5"
-    },
-    {
-        "name": "sandeep kumar",
-        "address": "sawreji",
-        "contact": "23345667",
-        "email": "sandeep@123",
-        "role": "admin",
-        "id": "admin_sandeep_7bfa1b"
+        "id": "staff_sandeep_5aad8b"
     }
 ]

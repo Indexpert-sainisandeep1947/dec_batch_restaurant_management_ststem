@@ -24,7 +24,7 @@ class MenuManager:
         item['id'] = input("ID: ").strip()
         if any(i['id'] == item['id'] for i in self.menu):
             print("Item ID already exists.")
-            return None
+            return None 
         item['name'] = input("Name: ").strip()
         item['size'] = input("Size: ").strip()
         try:

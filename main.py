@@ -4,17 +4,8 @@ from SRC.menumanagement.menu_management import MenuManager
 from SRC.menumanagement.admin_auth import admin_login
 
 def login_menu(auth):
-    print("\nlogin system")
-    print("1 - press for admin login")
-    print("2 - press for staff login")
-    choice = input("Enter your choice (1/2): ")
-
-    if choice == "1":
-        auth.admin_login()
-    elif choice == "2":
-        auth.staff_login()
-    else:
-        print("Invalid choice in login menu!")
+    print("\nsign up system")
+    auth.staff_sign_up()
 
 def main_menu():
     auth = UserAuthentication()
@@ -22,10 +13,10 @@ def main_menu():
 
     while True:
         print("\nrestaurant management system")
-        print("1 - press for login")
-        print("2 - press for sign in")
+        print("1 - press for sign up")
+        print("2 - press for login")
         print("3 - exit")
-        choice = input("Choose an option (1/2/3): ")
+        choice = input("Choose an option : ")
 
         if choice == "1":
             login_menu(auth)
@@ -73,3 +64,4 @@ def main():
 
 if __name__ == "__main__":
     main()  
+    
