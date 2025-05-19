@@ -1,1 +1,23 @@
-
+[
+    {
+        "id": "1",
+        "name": "Paneer Butter Masala",
+        "size": "Full",
+        "price": 180.0,
+        "category": "veg"
+    },
+    {
+        "id": "2",
+        "name": "Chicken Biryani",
+        "size": "Full",
+        "price": 220.0,
+        "category": "nonveg"
+    },
+    {
+        "id": "3",
+        "name": "Coca Cola",
+        "size": "500ml",
+        "price": 40.0,
+        "category": "softdrink"
+    }
+]

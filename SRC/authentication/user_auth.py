@@ -4,12 +4,20 @@ import os
 
 class UserAuthentication:
     def __init__(self):
-        self.path = "user_data.json"
+        
+        self.folder = "src/database"
+        self.path = self.folder + "/user_data.json"
+
+        
+        os.makedirs(self.folder, exist_ok=True)
+
+        
         if os.path.exists(self.path):
             with open(self.path, 'r') as file:
                 self.user_data = json.load(file)
         else:
             self.user_data = []
+
 
     def generate_user_data(self, role):
         user = {}
@@ -83,6 +91,3 @@ class UserAuthentication:
         with open(self.path, "w") as f:
             json.dump(self.user_data, f, indent=4)
         print("Data saved successfully to JSON.")
-
-
-

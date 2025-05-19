@@ -18,7 +18,7 @@ def main():
 
     method = payment_option()
     print(f"\nPayment Method: {method}")
-    print("\nShukriya! Aapka bill ban gaya hai.\n")
+    print("\nyour bill has  become.\n")
 
 if __name__ == "__main__":
     main()

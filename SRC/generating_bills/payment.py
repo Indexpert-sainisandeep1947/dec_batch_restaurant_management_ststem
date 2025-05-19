@@ -1,5 +1,5 @@
 def payment_option():
-    print("\nPayment ke liye option chuniye:")
+    print("\nchoose the option:")
     print("1. NetBanking")
     print("2. UPI")
     print("3. Cash")

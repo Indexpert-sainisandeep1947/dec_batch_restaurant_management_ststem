@@ -1,0 +1,18 @@
+[
+    {
+        "name": "sandeep kumar",
+        "address": "sawreji",
+        "contact": "7759996977",
+        "email": "sandeep321@gmail.com",
+        "role": "admin",
+        "id": "admin_sandeep_a3e829"
+    },
+    {
+        "name": "manjit kumar",
+        "address": "sawreji",
+        "contact": "1234567890",
+        "email": "manjit456@gmail.com",
+        "role": "staff",
+        "id": "staff_manjit_de5b64"
+    }
+]
